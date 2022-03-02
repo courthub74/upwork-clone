@@ -8,6 +8,7 @@ function Navbar(){
         // Navbar Container
         <div className='nav-container'>
 
+
                 {/* Main Page */}
                 <span>
                     <Link to="/">Find Work</Link>
