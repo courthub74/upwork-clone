@@ -6,6 +6,9 @@ import './index.css';
 
 ///////////////PAGES IMPORTS///////////////
 
+//Login 
+import Login from './pages/login';
+
 //Main
 import Main from './pages/main';
 
@@ -18,14 +21,20 @@ import Miles from './pages/milestones';
 //Jobs
 import Jobs from './pages/jobs';
 
+//Most Recent
+import Recent from './pages/mostrecent';
+
 function App() {
 
   ReactDOM.render(
     <>
       <Router>
         <Routes>
+
+            {/* LOGIN PAGE */}
+            <Route exact path='/login' element={<Login/>}></Route>
   
-            {/* MAIN PAGE */}
+            {/* MAIN PAGE -- When app is selected in production it will redirect to login page */}
             <Route exact path='/' element={<Main/>}/>
   
             {/* BEST MATCHES - FIND WORK */}
@@ -35,7 +44,7 @@ function App() {
             <Route path='/jobs' element={<Jobs/>}></Route>
   
             {/* MOST RECENT */}
-            <Route></Route>
+            <Route path='/recent' element={<Recent/>}></Route>
   
             {/* SAVED JOBS */}
             <Route></Route>
