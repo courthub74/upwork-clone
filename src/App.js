@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Link, Redirect, Route } from 'react-router-dom';
 import './index.css';
 
+///////////////NAVBAR IMPORT////////////////
+import Navbar from './components/navbar';
+
 
 ///////////////PAGES IMPORTS///////////////
 
@@ -29,48 +32,50 @@ function App() {
   ReactDOM.render(
     <>
       <Router>
-        <Routes>
+        <Navbar/>
+          <Routes>
 
-            {/* LOGIN PAGE */}
-            <Route exact path='/login' element={<Login/>}></Route>
-  
-            {/* MAIN PAGE -- When app is selected in production it will redirect to login page */}
-            <Route exact path='/' element={<Main/>}/>
-  
-            {/* BEST MATCHES - FIND WORK */}
-            <Route path='/details' element={<Deets/>}></Route>
-  
-            {/* MY JOBS */}
-            <Route path='/jobs' element={<Jobs/>}></Route>
-  
-            {/* MOST RECENT */}
-            <Route path='/recent' element={<Recent/>}></Route>
-  
-            {/* SAVED JOBS */}
-            <Route></Route>
-  
-            {/* JOB DEETS */}
-            <Route></Route>
-  
-            {/* MILESTONES */}
-            <Route path='/milestones' element={<Miles/>}></Route>
-  
-            {/* PROPOSAL */}
-            <Route></Route>
-  
-            {/* CONTRACT */}
-            <Route></Route>
-  
-            {/* REPORTS */}
-            <Route></Route>
-  
-            {/* MESSAGES */}
-            <Route></Route>
-  
-            {/* INSTANT MESSAGES */}
-            <Route></Route>
-  
-        </Routes>
+              {/* LOGIN PAGE */}
+              <Route exact path='/login' element={<Login/>}></Route>
+    
+              {/* MAIN PAGE -- When app is selected in production it will redirect to login page */}
+              <Route exact path='/' element={<Main/>}/>
+    
+              {/* BEST MATCHES - FIND WORK */}
+              <Route path='/details' element={<Deets/>}></Route>
+    
+              {/* MY JOBS */}
+              <Route path='/jobs' element={<Jobs/>}></Route>
+    
+              {/* MOST RECENT */}
+              <Route path='/recent' element={<Recent/>}></Route>
+    
+              {/* SAVED JOBS */}
+              <Route></Route>
+    
+              {/* JOB DEETS */}
+              <Route></Route>
+    
+              {/* MILESTONES */}
+              <Route path='/milestones' element={<Miles/>}></Route>
+    
+              {/* PROPOSAL */}
+              <Route></Route>
+    
+              {/* CONTRACT */}
+              <Route></Route>
+    
+              {/* REPORTS */}
+              <Route></Route>
+    
+              {/* MESSAGES */}
+              <Route></Route>
+    
+              {/* INSTANT MESSAGES */}
+              <Route></Route>
+    
+          </Routes>
+        
       </Router>
     </>,
     document.getElementById('root')
