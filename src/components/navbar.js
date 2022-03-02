@@ -1,30 +1,33 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import './navbar.css';
 
 function Navbar(){
     return(
-        <div>
 
-            {/* Main Page */}
-            <li>
-                <Link to="/">Find Work</Link>
-            </li>
+        // Navbar Container
+        <div className='nav-container'>
 
-            {/* My Jobs Page */}
-            <li>
-                <Link to="/jobs">My Jobs</Link>
-            </li>
+                {/* Main Page */}
+                <span>
+                    <Link to="/">Find Work</Link>
+                </span>
 
-            {/* Reports Page */}
-            <li>
-                <Link to="/reports">Reports</Link>
-            </li>
+                {/* My Jobs Page */}
+                <>
+                    <Link to="/jobs">My Jobs</Link>
+                </>
 
-            {/* Messages Page */}
-            <li>
-                <Link to="/messages">Messages</Link>
-            </li>
+                {/* Reports Page */}
+                <>
+                    <Link to="/reports">Reports</Link>
+                </>
 
+                {/* Messages Page */}
+                <>
+                    <Link to="/messages">Messages</Link>
+                </>
+            
         </div>
     )
 };
