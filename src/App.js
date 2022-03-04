@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Link, Redirect, Route } from 'react-ro
 import './index.css';
 
 ///////////////NAVBAR IMPORT////////////////
-import Navbar from './components/navbar';
+import Navbar from './components/Nav/navbar';
 
 
 ///////////////PAGES IMPORTS///////////////
