@@ -30,6 +30,9 @@ import Recent from './pages/mostrecent';
 //Reports
 import Reports from './pages/reports';
 
+//Messages
+import Messages from './pages/messages';
+
 function App() {
 
   ReactDOM.render(
@@ -68,10 +71,10 @@ function App() {
               {/* CONTRACT */}
               <Route></Route>
     
-              {/* REPORTS */}
-              <Route></Route>
-    
               {/* MESSAGES */}
+              <Route path='/messages' element={<Messages/>}></Route>
+    
+              {/* REPORTS */}
               <Route path='/reports' element={<Reports/>}></Route>
     
               {/* INSTANT MESSAGES */}
