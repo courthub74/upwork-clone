@@ -8,6 +8,14 @@ function Navbar(){
         // Navbar Container
         <div className='nav-container'>
 
+            <h1 className="nav-logo">UpWork
+                {/* Maybe a graphic logo here or not */}
+            </h1>
+
+
+                {/* Search Bar */}
+                <input placeholder='search' typeof='text' className='search-bar'></input>
+
 
                 {/* Main Page */}
                 <span>
