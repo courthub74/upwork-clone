@@ -27,6 +27,9 @@ import Jobs from './pages/jobs';
 //Most Recent
 import Recent from './pages/mostrecent';
 
+//Reports
+import Reports from './pages/reports';
+
 function App() {
 
   ReactDOM.render(
@@ -69,7 +72,7 @@ function App() {
               <Route></Route>
     
               {/* MESSAGES */}
-              <Route></Route>
+              <Route path='/reports' element={<Reports/>}></Route>
     
               {/* INSTANT MESSAGES */}
               <Route></Route>
