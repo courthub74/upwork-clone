@@ -1,0 +1,24 @@
+.foot-container {
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    list-style: none;
+}
+
+.foot-container li {
+    margin-left: 10px;
+}
+
+.foot-container a{ 
+    color: black;
+    text-decoration: none;
+}
+
+.foot-container :hover{
+    text-decoration: underline;
+}

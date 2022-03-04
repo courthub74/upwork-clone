@@ -33,6 +33,9 @@ import Reports from './pages/reports';
 //Messages
 import Messages from './pages/messages';
 
+//Footer
+import Footer from './components/Footer/footer';
+
 function App() {
 
   ReactDOM.render(
@@ -81,6 +84,8 @@ function App() {
               <Route></Route>
     
           </Routes>
+
+          <Footer/>
         
       </Router>
     </>,
