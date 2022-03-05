@@ -36,6 +36,13 @@ import Messages from './pages/messages';
 //Footer
 import Footer from './components/Footer/footer';
 
+//Job Description 1
+import Jobdescrip1 from './components/Jobs/jobdescript1';
+
+import Jobone from './components/Jobs/jobone';
+import Jobtwo from './components/Jobs/jobtwo';
+import Jobdescrip2 from './components/Jobs/jobdescript2';
+
 function App() {
 
   ReactDOM.render(
@@ -63,7 +70,10 @@ function App() {
               <Route></Route>
     
               {/* JOB DEETS */}
-              <Route></Route>
+              <Route path='/jobdescrip' element={<Jobdescrip1/>}></Route>
+              <Route path='/jobone' element={<Jobone/>}></Route>
+              <Route path='/jobtwo' element={<Jobdescrip2/>}></Route>
+
     
               {/* MILESTONES */}
               <Route path='/milestones' element={<Miles/>}></Route>
