@@ -4,7 +4,7 @@ import './joblist.css';
 
 function Jobdescrip2(){
     return(
-        <div>
+        <div className='description'>
 
             <h4>This is the Description of Job #2</h4>
             <p>This is the job #2. This is the job #2.</p>
@@ -13,7 +13,7 @@ function Jobdescrip2(){
             <p>This is the job #2. This is the job #2.</p>
             
 
-            <Link to="/">Back to Main Page</Link>
+            <h5 className='mainlink'><Link to="/">Back to Main Page</Link></h5>
 
         </div>
     )

@@ -3,16 +3,15 @@ import { Link } from "react-router-dom";
 import './joblist.css';
 
 
-function Joblist1(){
+function Joblist3(){
     return(
         <div className='joblist'>
             {/* for jobs in jobslist */}
             {/* print jobs */}
-            <Link to="/jobone"><h3>Job Description #1</h3></Link>
-            <p>This is the Job #1 Brief <br></br><button>JavaScript</button><button>NodeJS</button></p>
-
+            <Link to="/jobthree"><h3>Job Description #3</h3></Link>
+            <p>This is the Job #3 Brief <br></br><button>Ruby</button><button>Rails</button></p>
         </div>
     )
 }
 
-export default Joblist1;
+export default Joblist3;

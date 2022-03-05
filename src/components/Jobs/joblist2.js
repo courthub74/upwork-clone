@@ -5,11 +5,11 @@ import './joblist.css';
 
 function Joblist2(){
     return(
-        <div>
+        <div className='joblist'>
             {/* for jobs in jobslist */}
             {/* print jobs */}
             <Link to="/jobtwo"><h3>Job Description #2</h3></Link>
-            <p>Job #2 Brief</p>
+            <p>This is the Job #2 Brief <br></br><button>Python</button><button>Django</button></p>
         </div>
     )
 }

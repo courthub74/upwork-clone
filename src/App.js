@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Link, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 
 ///////////////NAVBAR IMPORT////////////////
@@ -39,9 +39,11 @@ import Footer from './components/Footer/footer';
 //Job Description 1
 import Jobdescrip1 from './components/Jobs/jobdescript1';
 
-import Jobone from './components/Jobs/jobone';
-import Jobtwo from './components/Jobs/jobtwo';
+//Job Description 2
 import Jobdescrip2 from './components/Jobs/jobdescript2';
+
+//Job Description 3
+import Jobdescrip3 from './components/Jobs/jobdescript3';
 
 function App() {
 
@@ -71,8 +73,9 @@ function App() {
     
               {/* JOB DEETS */}
               <Route path='/jobdescrip' element={<Jobdescrip1/>}></Route>
-              <Route path='/jobone' element={<Jobone/>}></Route>
+              <Route path='/jobone' element={<Jobdescrip1/>}></Route>
               <Route path='/jobtwo' element={<Jobdescrip2/>}></Route>
+              <Route path='/jobthree' element={<Jobdescrip3/>}></Route>
 
     
               {/* MILESTONES */}
