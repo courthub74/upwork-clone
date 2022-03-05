@@ -6,7 +6,7 @@ import Joblist from '../components/Jobs/jobslist';
 
 function Main(){
   return(
-    <div>
+    <div className='mainbody'>
       <Joblist/>
     </div>
   )

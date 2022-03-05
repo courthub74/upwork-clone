@@ -11,8 +11,9 @@ function Jobdescrip2(){
             <p>This is the job #2. This is the job #2.</p>
             <p>This is the job #2. This is the job #2.</p>
             <p>This is the job #2. This is the job #2.</p>
-            
 
+            <hr></hr>
+            
             <h5 className='mainlink'><Link to="/">Back to Main Page</Link></h5>
 
         </div>
