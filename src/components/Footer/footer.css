@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     list-style: none;
@@ -16,6 +15,7 @@
 
 .foot-container li {
     margin-left: 10px;
+    font-size: 1rem;
 }
 
 .foot-container a{ 
@@ -25,4 +25,8 @@
 
 .foot-container :hover{
     text-decoration: underline;
+}
+
+p {
+    font-size: small;
 }

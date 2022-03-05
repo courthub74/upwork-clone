@@ -28,6 +28,10 @@ function Footer(){
                 <li>
                     <Link to="/help">Help</Link>
                 </li>
+
+                <br></br>
+                <p>© 2015 - 2022 Upwork® clone CourDevelops.</p>
+      
             
         </div>
     )

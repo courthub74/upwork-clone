@@ -8,9 +8,9 @@ function Navbar(){
         // Navbar Container
         <div className='nav-container'>
 
-            <h1 className="nav-logo">UpWork
+            <h2 className="nav-logo">UpWork Clone
                 {/* Maybe a graphic logo here or not */}
-            </h1>
+            </h2>
 
 
                 {/* Search Bar */}
