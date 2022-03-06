@@ -11,6 +11,8 @@ function Jobdescrip2(){
             <p>This is the job #2. This is the job #2.</p>
             <p>This is the job #2. This is the job #2.</p>
             <p>This is the job #2. This is the job #2.</p>
+            <br></br>
+            <button>Python</button><button>Django</button>
 
             <hr></hr>
             

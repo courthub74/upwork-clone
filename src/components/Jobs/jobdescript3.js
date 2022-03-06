@@ -11,6 +11,8 @@ function Jobdescrip3(){
             <p>This is the job #3. This is the job #3.</p>
             <p>This is the job #3. This is the job #3.</p>
             <p>This is the job #3. This is the job #3.</p>
+            <br></br>
+            <button>Ruby</button><button>Rails</button>
 
             <hr></hr>
 
