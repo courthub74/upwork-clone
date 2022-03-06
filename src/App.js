@@ -36,14 +36,13 @@ import Messages from './pages/messages';
 //Footer
 import Footer from './components/Footer/footer';
 
-//Job Description 1
+//Job Descriptions
 import Jobdescrip1 from './components/Jobs/jobdescript1';
-
-//Job Description 2
 import Jobdescrip2 from './components/Jobs/jobdescript2';
-
-//Job Description 3
 import Jobdescrip3 from './components/Jobs/jobdescript3';
+import Jobdescrip4 from './components/Jobs/jobdescript4';
+import Jobdescrip5 from './components/Jobs/jobdescript5';
+import Jobdescrip6 from './components/Jobs/jobdescript6';
 
 function App() {
 
@@ -72,10 +71,12 @@ function App() {
               <Route></Route>
     
               {/* JOB DEETS */}
-              <Route path='/jobdescrip' element={<Jobdescrip1/>}></Route>
               <Route path='/jobone' element={<Jobdescrip1/>}></Route>
               <Route path='/jobtwo' element={<Jobdescrip2/>}></Route>
               <Route path='/jobthree' element={<Jobdescrip3/>}></Route>
+              <Route path='/jobfour' element={<Jobdescrip4/>}></Route>
+              <Route path='/jobfive' element={<Jobdescrip5/>}></Route>
+              <Route path='/jobsix' element={<Jobdescrip6/>}></Route>
 
     
               {/* MILESTONES */}

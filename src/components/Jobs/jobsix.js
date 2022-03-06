@@ -1,18 +1,18 @@
 import React from 'react';
 import './joblist.css';
 
-//Job Description 1 
-import Jobdescrip1 from './jobdescript1';
+//Job Description 6 
+import Jobdescrip6 from './jobdescript6';
 
-function Jobone() {
+function Jobsix() {
     return(
 
         <div>
             {/* import the actual job description */}
-                <Jobdescrip1/>
+                <Jobdescrip6 />
         </div>
     )
 };
 
-export default Jobone;
+export default Jobsix;
 
