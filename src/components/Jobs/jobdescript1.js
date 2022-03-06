@@ -13,6 +13,12 @@ function Jobdescrip1(){
             <p>This is the job #1. This is the job #1.</p>
             <br></br>
             <button>JavaScript</button><button>NodeJS</button>
+
+            <br></br>
+
+            <hr></hr>
+            
+            <button className='bigblu' type='submit'>I Like this Job</button><button className='bigred'>Never Mind</button>
         
             <hr></hr>
         

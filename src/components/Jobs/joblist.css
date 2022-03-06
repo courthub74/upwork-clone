@@ -27,3 +27,16 @@ Badge {
 .description{
     text-align: center;
 }
+
+.bigblu {
+    background-color: white;
+    color: darkgreen;
+    font-size: large;
+    border: 1px;
+}
+
+.bigred {
+    background-color: white;
+    color: lightslategray;
+    font-size: large;
+}

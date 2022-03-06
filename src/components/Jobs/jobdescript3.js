@@ -14,6 +14,12 @@ function Jobdescrip3(){
             <br></br>
             <button>Ruby</button><button>Rails</button>
 
+            <br></br>
+
+            <hr></hr>
+            
+            <button className='bigblu' type='submit'>I Like this Job</button><button className='bigred'>Never Mind</button>
+
             <hr></hr>
 
             <h5 className='mainlink'><Link to="/">Back to Main Page</Link></h5>
