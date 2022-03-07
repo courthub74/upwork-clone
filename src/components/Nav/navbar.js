@@ -24,7 +24,7 @@ function Navbar(){
 
                 {/* My Jobs Page */}
                 <li>
-                    <Link to="/jobs">My Jobs</Link>
+                    <Link to="/jobs">Jobs</Link>
                 </li>
 
                 {/* Reports Page */}

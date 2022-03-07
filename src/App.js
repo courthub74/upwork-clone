@@ -44,6 +44,9 @@ import Jobdescrip4 from './components/Jobs/jobdescript4';
 import Jobdescrip5 from './components/Jobs/jobdescript5';
 import Jobdescrip6 from './components/Jobs/jobdescript6';
 
+//Post Jobs Page
+import Post from './pages/postjob';
+
 function App() {
 
   ReactDOM.render(
@@ -63,6 +66,9 @@ function App() {
     
               {/* MY JOBS */}
               <Route path='/jobs' element={<Jobs/>}></Route>
+
+              {/* POST JOBS */}
+              <Route path='/postjob' element={<Post/>}></Route>
     
               {/* MOST RECENT */}
               <Route path='/recent' element={<Recent/>}></Route>
