@@ -1,0 +1,22 @@
+.biggreen {
+  background-color: white;
+  color: darkgreen;
+  font-size: xx-large;
+  border: 1px;
+}
+
+.biggrey {
+  background-color: white;
+  color: lightslategray;
+  font-size: xx-large;
+  border: 1px;
+}
+
+.bothbuttons {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px;
+  border-style: groove;
+  width: 800px;
+  box-shadow: 0 0 20px 0 rgba(4, 240, 16, 0.993), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}

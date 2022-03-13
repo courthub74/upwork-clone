@@ -8,8 +8,8 @@ function Joblist2(){
         <div className='joblist'>
             {/* for jobs in jobslist */}
             {/* print jobs */}
-            <Link to="/jobtwo"><h3>Job Description #2</h3></Link>
-            <p>This is the Job #2 Brief <br></br><button>Python</button><button>Django</button></p>
+            <Link className='joblink' to="/jobtwo"><h3>Job Description #2</h3></Link>
+            <p>This is the Job #2 Brief <br></br><span className='categorybutton'>Python</span><span className='categorybutton'>Django</span></p>
         </div>
     )
 }

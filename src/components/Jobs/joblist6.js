@@ -9,8 +9,8 @@ function Joblist6(){
         <div className='joblist'>
             {/* for jobs in jobslist */}
             {/* print jobs */}
-            <Link to="/jobsix"><h3>Job Description #6</h3></Link>
-            <p>This is the Job #6 Brief <br></br><button>JavaScript</button><button>API</button></p>
+            <Link className='joblink' to="/jobsix"><h3>Job Description #6</h3></Link>
+            <p>This is the Job #6 Brief <br></br><span className='categorybutton'>JavaScript</span><span className='categorybutton'>API</span></p>
         </div>
     )
 }

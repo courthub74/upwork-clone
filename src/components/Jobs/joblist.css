@@ -1,42 +1,68 @@
 .joblist {
-    display: flex;
-    justify-content: space-around;
-    border: 10px;
+  display: flex;
+  justify-content: space-around;
+  border: 10px;
 }
 
-button {
-    border: none;
-    border-radius: 10%;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+.categorybutton {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  border-radius: 20%;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-inline: 10px;
+}
+
+.mainlink {
+  font-size: xx-large;
+  display: inline-block;
+  align-items: center;
+  margin-right: 5px;
+  /* border: 1px;
+  border-style: groove; */
+  width: 800px;
+  /* box-shadow: 0 0 20px 0 rgba(48, 240, 58, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .mainlink a {
-    border-radius: 20%;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.2rem;
-    color: green
+  font-weight: 700;
+  border-radius: 20%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+}
+
+.joblink {
+  text-decoration: none;
+  color: green;
+  font-size: large;
 }
 
 Badge {
-    background-color: lightgrey;
-    color: black;
-    border-radius: 10%;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 10%;
 }
-.description{
-    text-align: center;
+.description {
+  text-align: center;
 }
 
 .bigblu {
-    background-color: white;
-    color: darkgreen;
-    font-size: large;
-    border: 1px;
+  background-color: white;
+  color: darkgreen;
+  font-size: large;
+  border: 1px;
 }
 
 .bigred {
-    background-color: white;
-    color: lightslategray;
-    font-size: large;
+  background-color: white;
+  color: lightslategray;
+  font-size: large;
+}
+
+.deetboard {
+  border: 1px;
+  border-style: groove;
 }

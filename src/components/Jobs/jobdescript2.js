@@ -2,25 +2,45 @@ import {React} from 'react';
 import { Link } from "react-router-dom";
 import './joblist.css';
 
+import Buttons1 from '../Likebuttons/bothbuttons';
+
 function Jobdescrip2(){
     return(
-        <div className='description'>
+        <div className='description joblink'>
 
-            <h4>This is the Description of Job #2</h4>
-            <p>This is the job #2. This is the job #2.</p>
-            <p>This is the job #2. This is the job #2.</p>
-            <p>This is the job #2. This is the job #2.</p>
-            <p>This is the job #2. This is the job #2.</p>
+            <h4>Deets for Job #2</h4>
+            <p>This is the Description of Job #2
+                It will be a Full-Stack job
+                in need of proficiency in 
+                Python and Django <br></br>
+                You will need to be dedicated for 
+                30 hours per week and report to 
+                a senior dev on deliverables.<br></br>
+                Our company is creating an app that creates
+                an interaction in Bubble that takes an individual <br></br>
+                from a general search page to a dynamically generated 
+                landing page once a button is clicked.
+            </p>
             <br></br>
-            <button>Python</button><button>Django</button>
+            <h4>Deliverables for Job#2</h4>
+            <i>Deliverables shall be reported monthly</i>
+            <p>Deliverable #1</p>
+            <p>Deliverable #2</p>
+            <p>Deliverable #3</p>
+            <p>Deliverable #4</p>
+            <p>Deliverable #5</p>
+            <br></br>
+            <span className='categorybutton'>Python</span><span className='categorybutton'>Django</span>
 
-            <hr></hr>
-            
-            <button className='bigblu' type='submit'>I Like this Job</button><button className='bigred'>Never Mind</button>
+            <br></br>
+            <br></br>
+            <br></br>
 
-            <hr></hr>
+            <Buttons1 />
+
+            <br></br>
             
-            <h5 className='mainlink'><Link to="/">Back to Main Page</Link></h5>
+            <h1 className='mainlink'><Link to="/">Back to Main Page</Link></h1>
 
         </div>
     )

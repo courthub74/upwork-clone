@@ -36,6 +36,25 @@ function Navbar(){
                 <li>
                     <Link to="/messages">Messages</Link>
                 </li>
+
+                {/* Test Link */}
+                <li>
+                    <Link to="/postjob">Post a Job</Link>
+                </li>
+
+                {/* Dropdown Test */}
+                {/* <li>
+                    <Dropdown>
+                        <Dropdown.Toggle>
+                            Dropdown Button
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="/postjob">Find A Job</Dropdown.Item>
+                            <Dropdown.Item href="/postjob">Post A Job</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                </li> */}
             
         </div>
     )

@@ -2,6 +2,8 @@ import {React} from 'react';
 import { Link } from "react-router-dom";
 import './joblist.css';
 
+import Buttons1 from '../Likebuttons/bothbuttons';
+
 function Jobdescrip6(){
     return(
 
@@ -13,15 +15,17 @@ function Jobdescrip6(){
             <p>This is the job #6. This is the job #6.</p>
             
             <br></br>
-            <button>JavaScript</button><button>API</button>
+            <span className='categorybutton'>JavaScript</span><span className='categorybutton'>API</span>
         
-            <hr></hr>
+            <br></br>
+            <br></br>
+            <br></br>
 
-            <button className='bigblu' type='submit'>I Like this Job</button><button className='bigred'>Never Mind</button>
+            <Buttons1 />
 
-            <hr></hr>
-        
-            <h5 className='mainlink'><Link to="/">Back to Main Page</Link></h5>
+            <br></br>
+            
+            <h1 className='mainlink'><Link to="/">Back to Main Page</Link></h1>
         </div>
         
     )
