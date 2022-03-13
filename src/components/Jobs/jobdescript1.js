@@ -20,7 +20,9 @@ function Jobdescrip1(){
                 Our company is creating an app that creates
                 an interaction in Bubble that takes an individual <br></br>
                 from a general search page to a dynamically generated 
-                landing page once a button is clicked.
+                landing page once a button is clicked.<br></br>
+                Take a look at the Deliverables below. 
+                If accepted you will have to answer a few questions before you start.
             </p>
             <br></br>
             <h4>Deliverables for Job#1</h4>
