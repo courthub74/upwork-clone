@@ -13,17 +13,18 @@ function Jobdescrip6(){
                 It will be a Full-Stack job
                 in need of proficiency in 
                 JavaScript and API development.<br></br>
+                <h4>Thing You Will Need To Do</h4>
                 You will need to be dedicated for 
                 30 hours per week and report to 
                 a senior dev on deliverables.<br></br>
+
+                <h4>What Company Is Creating</h4>
                 Our company is creating an app that creates
                 an interaction in Bubble that takes an individual <br></br>
                 from a general search page to a dynamically generated 
                 landing page once a button is clicked.<br></br>
-                Take a look at the Deliverables below. 
-                If accepted you will have to answer a few questions before you start.
             </p>
-            <br></br>
+        
             <h4>Deliverables for Job#6</h4>
             <i>Deliverables shall be reported weekly</i>
             <p>Deliverable #1</p>
