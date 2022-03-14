@@ -8,7 +8,7 @@ function Jobdescrip3(){
     return(
         <div className='description joblink'>
 
-<h4>Deets for Job #1</h4>
+            <h4>Deets for Job #3</h4>
             <p>This is the Description of Job #3
                 It will be a Full-Stack job
                 in need of proficiency in 
