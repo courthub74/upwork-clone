@@ -3,7 +3,14 @@ import '../App.css';
 
 function Messages(){
     return(
-        <h2>This is the Messages Page</h2>
+        <div className='messagearea'>
+            <form className='messageform'>
+            <h2>Write Message Here:</h2>
+            <input placeholder='Message to: @'></input>
+            <textarea></textarea>
+            </form>
+
+        </div>
     )
 };
 
